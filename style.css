@@ -42,38 +42,44 @@ a {
 .portada {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: rgb(243, 201, 243);
-    
-}
+    padding: 60px;
 
-.portada > img {
-    height: 350px;
-    width: 350x;
-    display: flex;
-    padding-left: 15%;
+}
     
+.imgperfumes {
+    width: 30%;
+    height: 280px;
+    width: 280px;   
 }
 
 h1 {
+    display: flex;
+    flex-shrink: inherit;
     font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: brown;
 }
 
-button {
+.botones {
     display: flex;
     margin-top: 30px;
     gap: 30px;
+}
+
+button {
+    margin-top: 30px;
     border-radius: 10px;
-    padding: 10px 25px;
-    cursor: pointer;
-    border: none;
+    padding: 10px;
+    border:color(from color srgb r g b);
     height: 30px;
-    background-color: sandybrown;
+    background-color: rgb(211, 132, 211);
 }
 
 .hombre {
     display: flex;
+    margin: 40px;
 }
 
 .hombre > img {
@@ -91,6 +97,28 @@ button {
     width: 350px;
 }
 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indianred;
+}
+
+p > .hombre {
+    display: flex;
+    margin-top: 10px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+p > .mujer {
+    display: flex;
+    margin-top: 10px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 footer {
     position: fixed;
     bottom: 0;
