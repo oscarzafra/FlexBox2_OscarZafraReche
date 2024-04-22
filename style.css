@@ -79,22 +79,28 @@ button {
 
 .hombre {
     display: flex;
-    margin: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 60px;
 }
 
 .hombre > img {
     height: 300px;
     width: 320px;
+    padding: 40px;
 }
 
 .mujer {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 60px;
 }
 
 .mujer > img {
-    height: 350px;
+    height: 370px;
     width: 350px;
+    padding: 40px;
 }
 
 h2 {
